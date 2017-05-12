@@ -15,15 +15,18 @@ class Tests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        
+        let nullable: Int? = nil
+        
+        XCTAssertTrue(Int(nullable) == 0)
+        XCTAssertTrue(Int(nullable, defaultValue: 5) == 5)
+        XCTAssertTrue(Float(nullable) == 0)
+        XCTAssertTrue(Float(nullable, defaultValue: 5) == 5)
+        XCTAssertTrue(Double(nullable) == 0)
+        XCTAssertTrue(Double(nullable, defaultValue: 5) == 5)
+        XCTAssertTrue(CGFloat(nullable) == 0)
+        XCTAssertTrue(CGFloat(nullable, defaultValue: 5) == 5)
+        XCTAssertTrue(Bool(nullable) == false)
+        XCTAssertTrue(Bool(nullable, defaultValue: true) == true)
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }
