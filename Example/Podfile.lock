@@ -1,5 +1,5 @@
 PODS:
-  - OptionalTypes (1.0.2)
+  - OptionalTypes (1.0.3)
 
 DEPENDENCIES:
   - OptionalTypes (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  OptionalTypes: 55d22ce5993eca1fc9b508f698e96bb94110ddeb
+  OptionalTypes: 9029e30dcb0d45185fcd251b9cac90f0c35c9f90
 
 PODFILE CHECKSUM: e17e4932e0452cb5ff452e311bb36a7079cfb227
 
