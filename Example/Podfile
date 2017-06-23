@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OptionalTypes_Example' do
+  pod 'OptionalTypes', :path => '../'
+
+  target 'OptionalTypes_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
